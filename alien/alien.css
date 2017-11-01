@@ -1,21 +1,21 @@
 body{
-  background-color: brown;
+  background-color: darkgray;
 }
 
 #background{
   position: absolute;
   background-color: lightblue;
-  width: 500px;
   height: 300px;
+  width: 500px;
   z-index: -10;
 }
 
 #head{
   position: absolute;
   background-color: rgb(155, 191, 76);
-  width: 160px;
-  height: 200px;
   border-radius: 50%;
+  height: 200px;
+  width: 160px;
   top: 60px;
   left: 170px;
   z-index: 0;
@@ -24,9 +24,9 @@ body{
 .eye{
   position: absolute;
   background-color: white;
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
+  height: 50px;
+  width: 50px;
   z-index: 1;
 }
 
@@ -43,9 +43,9 @@ body{
 .pupil{
   position: absolute;
   background-color: black;
+  border-radius: 50%;
   width: 10px;
   height: 10px;
-  border-radius: 50%;
   z-index: 2;
 }
 
@@ -62,9 +62,9 @@ body{
 .nose{
   position: absolute;
   background-color: rgb(133, 164, 64);
+  border-radius: 50%;
   height: 10px;
   width: 8px;
-  border-radius: 50%;
 }
 
 #nose-right{
@@ -81,12 +81,16 @@ body{
 #mouth{
   position: absolute;
   background-color: black;
-  width: 60px;
-  height: 30px;
   border-radius: 75%;
-  z-index: 1;
+  height: 30px;
+  width: 60px;
   top: 210px;
   left: 220px;
+  z-index: 1;
+}
+
+#mouth:hover{
+  background: linear-gradient(red, yellow, orange);
 }
 
 #outer-body{
@@ -110,8 +114,4 @@ body{
   left: 216px;
   border-left: 3px rgb(155, 191, 76) solid;
   border-right: 3px rgb(155, 191, 76) solid;
-}
-
-#mouth:hover{
-   background: linear-gradient(red, yellow, orange);
 }
