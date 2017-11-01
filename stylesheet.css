@@ -1,0 +1,62 @@
+#background{
+  position: absolute;
+  background-color: darkblue;
+  height: 300px;
+  width: 400px;
+}
+
+#head{
+  position: absolute;
+  background-color: rgb(255,224,189);
+  border-radius: 50%;
+  height: 180px;
+  width:150px;
+  top: 50px;
+  left: 135px;
+}
+
+.eye{
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+#eye-left{
+  top: 100px;
+  left: 160px;
+}
+
+#eye-right{
+  top: 100px;
+  left: 208px;
+}
+
+.pupil{
+  position: absolute;
+  background-color: black;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+#pupil-left{
+  top: 120px;
+  left: 180px;
+}
+
+#pupil-right{
+  top: 120px;
+  left: 228px;
+}
+
+#nose{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 black;
+  top: 140px;
+  left:200px;
+  z-index: 2;
+}
